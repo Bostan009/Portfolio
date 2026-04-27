@@ -1,478 +1,690 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio van Shawkatullah Manduzai – HBO ICT-student, webdeveloper in opleiding.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio van Shawkatullah Manduzai – HBO ICT-student, webdeveloper in opleiding."
+    />
     <title>Shawkatullah Manduzai — Portfolio</title>
 
     <!-- Google Fonts: Outfit (headings) + Source Sans 3 (body) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css"
+    />
+  </head>
+  <body>
     <!-- ============================================
          NAVIGATIE
     ============================================= -->
     <header class="site-header">
-        <nav class="nav-container">
-            <a href="#hero" class="nav-logo">S<span class="logo-dot">.</span>M</a>
-            <ul class="nav-links">
-                <li><a href="#over-mij">Over mij</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projecten">Projecten</a></li>
-                <li><a href="#contact" class="nav-cta">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="nav-container">
+        <a href="#hero" class="nav-logo">S<span class="logo-dot">.</span>M</a>
+        <ul class="nav-links">
+          <li><a href="#over-mij">Over mij</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projecten">Projecten</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-
-        <!-- ============================================
+      <!-- ============================================
              HERO / HOME SECTIE
         ============================================= -->
-        <section id="hero" class="hero">
-            <div class="hero-content">
-                <p class="hero-label">HBO ICT-student · 2e jaar</p>
-                <h1 class="hero-title">
-                    Shawkatullah<br>
-                    <span class="hero-title-accent">Manduzai</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Gedreven ICT-student met een passie voor technologie en ontwikkeling.
-                    Parttime werkzaam bij de GGZ en TBS-klinieken, met de ambitie om
-                    mijn kennis in de ICT-wereld te verbreden en impactvolle digitale
-                    oplossingen te bouwen.
-                </p>
-                <div class="hero-actions">
-                    <a href="#projecten" class="btn btn-primary">Bekijk mijn projecten</a>
-                    <a href="#contact" class="btn btn-secondary">Neem contact op</a>
-                </div>
-            </div>
-            <!-- Decoratief element -->
-            <div class="hero-decoration" aria-hidden="true">
-                <div class="hero-circle hero-circle-1"></div>
-                <div class="hero-circle hero-circle-2"></div>
-            </div>
-        </section>
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <p class="hero-label">HBO ICT-student · 2e jaar</p>
+          <h1 class="hero-title">
+            Shawkatullah<br />
+            <span class="hero-title-accent">Manduzai</span>
+          </h1>
+          <p class="hero-subtitle">
+            Gedreven ICT-student met een passie voor technologie en
+            ontwikkeling. Parttime werkzaam bij de GGZ en TBS-klinieken, met de
+            ambitie om mijn kennis in de ICT-wereld te verbreden en impactvolle
+            digitale oplossingen te bouwen.
+          </p>
+          <div class="hero-actions">
+            <a href="#projecten" class="btn btn-primary"
+              >Bekijk mijn projecten</a
+            >
+            <a href="#contact" class="btn btn-secondary">Neem contact op</a>
+          </div>
+        </div>
+        <!-- Decoratief element -->
+        <div class="hero-decoration" aria-hidden="true">
+          <div class="hero-circle hero-circle-1"></div>
+          <div class="hero-circle hero-circle-2"></div>
+        </div>
+      </section>
 
-        <!-- ============================================
+      <!-- ============================================
              OVER MIJ SECTIE
         ============================================= -->
-        <section id="over-mij" class="section over-mij">
-            <div class="container">
-                <p class="section-label">Kennismaking</p>
-                <h2 class="section-title">Over mij</h2>
+      <section id="over-mij" class="section over-mij">
+        <div class="container">
+          <p class="section-label">Kennismaking</p>
+          <h2 class="section-title">Over mij</h2>
 
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p class="about-intro">
-                            Ik ben Shawkatullah Manduzai, tweedejaars HBO ICT-student met
-                            een sterke drive om te groeien als professional in de tech-wereld.
-                        </p>
-                        <p>
-                            Naast mijn studie werk ik parttime bij de GGZ en TBS-klinieken,
-                            waar ik heb geleerd om verantwoordelijk, gestructureerd en
-                            mensgericht te werken. Deze ervaring heeft mij gevormd tot een
-                            betrouwbare en empathische professional die goed functioneert
-                            onder druk.
-                        </p>
-                        <p>
-                            Binnen mijn opleiding heb ik kennisgemaakt met webdevelopment,
-                            programmeren, UX-design en projectmatig werken. Ik ben leergierig,
-                            pak nieuwe technologieën snel op en zoek voortdurend naar manieren
-                            om mijn vaardigheden te verbreden.
-                        </p>
-                        <p>
-                            Mijn ambitie is om een waardevolle bijdrage te leveren aan
-                            innovatieve ICT-projecten — of dat nu bij een stagebedrijf, in
-                            een team of als eigen initiatief is. Ik geloof dat de combinatie
-                            van mijn technische ontwikkeling en mijn ervaring met mensen mij
-                            een uniek perspectief geeft.
-                        </p>
-                    </div>
-
-                    <div class="about-highlights">
-                        <div class="highlight-card">
-                            <span class="highlight-icon">🎓</span>
-                            <h3>Opleiding</h3>
-                            <p>HBO ICT — 2e&nbsp;jaar</p>
-                        </div>
-                        <div class="highlight-card">
-                            <span class="highlight-icon">💼</span>
-                            <h3>Werkervaring</h3>
-                            <p>GGZ &amp; TBS-klinieken</p>
-                        </div>
-                        <div class="highlight-card">
-                            <span class="highlight-icon">🚀</span>
-                            <h3>Ambitie</h3>
-                            <p>ICT-kennis verbreden &amp; impact maken</p>
-                        </div>
-                        <div class="highlight-card">
-                            <span class="highlight-icon">🔍</span>
-                            <h3>Instelling</h3>
-                            <p>Leergierig, gedreven &amp; proactief</p>
-                        </div>
-                    </div>
-                </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p class="about-intro">
+                Ik ben Shawkatullah Manduzai, tweedejaars HBO ICT-student met
+                een sterke drive om te groeien als professional in de
+                tech-wereld.
+              </p>
+              <p>
+                Naast mijn studie werk ik parttime bij de GGZ en TBS-klinieken,
+                waar ik heb geleerd om verantwoordelijk, gestructureerd en
+                mensgericht te werken. Deze ervaring heeft mij gevormd tot een
+                betrouwbare en empathische professional die goed functioneert
+                onder druk.
+              </p>
+              <p>
+                Binnen mijn opleiding heb ik kennisgemaakt met webdevelopment,
+                programmeren, UX-design en projectmatig werken. Ik ben
+                leergierig, pak nieuwe technologieën snel op en zoek voortdurend
+                naar manieren om mijn vaardigheden te verbreden.
+              </p>
+              <p>
+                Mijn ambitie is om een waardevolle bijdrage te leveren aan
+                innovatieve ICT-projecten — of dat nu bij een stagebedrijf, in
+                een team of als eigen initiatief is. Ik geloof dat de combinatie
+                van mijn technische ontwikkeling en mijn ervaring met mensen mij
+                een uniek perspectief geeft.
+              </p>
             </div>
-        </section>
 
-        <!-- ============================================
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <span class="highlight-icon"
+                  ><i class="fa-solid fa-graduation-cap"></i
+                ></span>
+                <h3>Opleiding</h3>
+                <p>HBO ICT — 2e&nbsp;jaar</p>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-icon"
+                  ><i class="fa-solid fa-briefcase"></i
+                ></span>
+                <h3>Werkervaring</h3>
+                <p>GGZ &amp; TBS-klinieken</p>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-icon"
+                  ><i class="fa-solid fa-rocket"></i
+                ></span>
+                <h3>Ambitie</h3>
+                <p>ICT-kennis verbreden &amp; impact maken</p>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-icon"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></span>
+                <h3>Instelling</h3>
+                <p>Leergierig, gedreven &amp; proactief</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================
              SKILLS SECTIE
         ============================================= -->
-        <section id="skills" class="section skills">
-            <div class="container">
-                <p class="section-label">Vaardigheden</p>
-                <h2 class="section-title">Mijn skills</h2>
-                <p class="section-description">
-                    Een overzicht van de technologieën en tools waar ik ervaring mee heb
-                    opgedaan tijdens mijn studie en projecten.
-                </p>
+      <section id="skills" class="section skills">
+        <div class="container">
+          <p class="section-label">Vaardigheden</p>
+          <h2 class="section-title">Mijn skills</h2>
+          <p class="section-description">
+            Een overzicht van de technologieën en tools waar ik ervaring mee heb
+            opgedaan tijdens mijn studie en projecten.
+          </p>
 
-                <div class="skills-grid">
-                    <!-- Skill: HTML -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">H</span>
-                        </div>
-                        <h3>HTML</h3>
-                        <span class="skill-badge">Gevorderd</span>
-                    </div>
-
-                    <!-- Skill: CSS -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">C</span>
-                        </div>
-                        <h3>CSS</h3>
-                        <span class="skill-badge">Gevorderd</span>
-                    </div>
-
-                    <!-- Skill: Figma -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">F</span>
-                        </div>
-                        <h3>Figma</h3>
-                        <span class="skill-badge">Basis</span>
-                    </div>
-
-                    <!-- Skill: GitHub -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">G</span>
-                        </div>
-                        <h3>GitHub</h3>
-                        <span class="skill-badge">Basis</span>
-                    </div>
-
-                    <!-- Skill: PHP -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">P</span>
-                        </div>
-                        <h3>PHP</h3>
-                        <span class="skill-badge">Basis</span>
-                    </div>
-
-                    <!-- Skill: Python -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">Py</span>
-                        </div>
-                        <h3>Python</h3>
-                        <span class="skill-badge">Basis</span>
-                    </div>
-
-                    <!-- Skill: Wireframing -->
-                    <div class="skill-card">
-                        <div class="skill-icon-wrap">
-                            <span class="skill-letter">W</span>
-                        </div>
-                        <h3>Wireframing</h3>
-                        <span class="skill-badge">Basis</span>
-                    </div>
-                </div>
+          <div class="skills-grid">
+            <!-- Skill: HTML -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="devicon-html5-plain skill-devicon"></i>
+              </div>
+              <h3>HTML</h3>
+              <span class="skill-badge">Gevorderd</span>
             </div>
-        </section>
 
-        <!-- ============================================
+            <!-- Skill: CSS -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="devicon-css3-plain skill-devicon"></i>
+              </div>
+              <h3>CSS</h3>
+              <span class="skill-badge">Gevorderd</span>
+            </div>
+
+            <!-- Skill: Figma -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="devicon-figma-plain skill-devicon"></i>
+              </div>
+              <h3>Figma</h3>
+              <span class="skill-badge">Basis</span>
+            </div>
+
+            <!-- Skill: GitHub -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="devicon-github-original skill-devicon"></i>
+              </div>
+              <h3>GitHub</h3>
+              <span class="skill-badge">Basis</span>
+            </div>
+
+            <!-- Skill: PHP -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="devicon-php-plain skill-devicon"></i>
+              </div>
+              <h3>PHP</h3>
+              <span class="skill-badge">Basis</span>
+            </div>
+
+            <!-- Skill: Python -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="devicon-python-plain skill-devicon"></i>
+              </div>
+              <h3>Python</h3>
+              <span class="skill-badge">Basis</span>
+            </div>
+
+            <!-- Skill: Wireframing -->
+            <div class="skill-card">
+              <div class="skill-icon-wrap">
+                <i class="fa-solid fa-object-ungroup skill-devicon"></i>
+              </div>
+              <h3>Wireframing</h3>
+              <span class="skill-badge">Basis</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================
              PROJECTEN SECTIE
         ============================================= -->
-        <section id="projecten" class="section projecten">
-            <div class="container">
-                <p class="section-label">Portfolio</p>
-                <h2 class="section-title">Mijn projecten</h2>
-                <p class="section-description">
-                    Een selectie van projecten waar ik tijdens mijn studie aan heb gewerkt.
-                    Elk project heeft mij geholpen om nieuwe vaardigheden te ontwikkelen en
-                    als ICT'er te groeien.
-                </p>
+      <section id="projecten" class="section projecten">
+        <div class="container">
+          <p class="section-label">Portfolio</p>
+          <h2 class="section-title">Mijn projecten</h2>
+          <p class="section-description">
+            Een selectie van projecten waar ik tijdens mijn studie aan heb
+            gewerkt. Elk project heeft mij geholpen om nieuwe vaardigheden te
+            ontwikkelen en als ICT'er te groeien.
+          </p>
 
-                <!-- ===== PROJECT 1: Escape Room ===== -->
-                <article class="project-card">
-                    <div class="project-header">
-                        <span class="project-number">01</span>
-                        <h3 class="project-title">Escape Room</h3>
-                        <p class="project-tagline">
-                            Een interactieve Escape Room gebouwd in Roblox, met
-                            scripting, logica en creatieve gameplay-elementen.
-                        </p>
-                    </div>
-
-                    <div class="project-details">
-                        <div class="project-detail-block">
-                            <h4>Context</h4>
-                            <p>
-                                Binnen een studieproject was de opdracht om een interactieve
-                                game-ervaring te ontwikkelen. Ik koos ervoor om een Escape Room
-                                te bouwen in Roblox Studio, waarbij scripting en creatief
-                                probleemoplossend denken centraal stonden.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Doel</h4>
-                            <p>
-                                Een werkende Escape Room creëren waarin spelers puzzels moeten
-                                oplossen om verder te komen. De nadruk lag op logische opbouw,
-                                interactieve onderdelen en een meeslepende spelervaring.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Mijn rol</h4>
-                            <p>
-                                Ik was verantwoordelijk voor het ontwerpen van de ruimte, het
-                                schrijven van de scripts in Lua en het testen van de gameplay.
-                                Ik heb gewerkt aan de logica achter puzzels, triggers en
-                                interactieve objecten.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Resultaat</h4>
-                            <p>
-                                Een volledig speelbare Escape Room met meerdere puzzels,
-                                visuele feedback en een duidelijke spelflow. Het project
-                                is succesvol afgerond en gepresenteerd.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Reflectie</h4>
-                            <p>
-                                Dit project leerde mij de basis van scripting, logisch denken
-                                en het belang van goed testen. Het versterkte mijn interesse
-                                in interactieve digitale ervaringen en gaf mij vertrouwen in
-                                het werken met nieuwe technologieën.
-                            </p>
-                        </div>
-<div class="project-action">
-                            <a href="https://liveadminwindesheim-my.sharepoint.com/:v:/r/personal/s1196810_student_windesheim_nl/Documents/Recording%202026-02-06%20051114.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0qZkYa" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-small">Bekijk het eindresultaat ↗</a>
-                        </div>
-                        <div class="project-skills-used">
-                            <span class="skill-tag">Roblox Studio</span>
-                            <span class="skill-tag">Lua Scripting</span>
-                            <span class="skill-tag">Game Design</span>
-                            <span class="skill-tag">Logisch denken</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- ===== PROJECT 2: Mobiele App ===== -->
-                <article class="project-card">
-                    <div class="project-header">
-                        <span class="project-number">02</span>
-                        <h3 class="project-title">Mobiele app voor ruimte booking</h3>
-                        <p class="project-tagline">
-                            Een UX/UI-ontwerp voor een mobiele applicatie waarmee gebruikers
-                            eenvoudig ruimtes kunnen reserveren.
-                        </p>
-                    </div>
-
-                    <div class="project-details">
-                        <div class="project-detail-block">
-                            <h4>Context</h4>
-                            <p>
-                                Voor een studieopdracht rondom gebruiksvriendelijkheid en
-                                interface-design heb ik een mobiele app ontworpen voor het
-                                booken van vergaderruimtes en werkplekken.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Doel</h4>
-                            <p>
-                                Een intuïtieve en overzichtelijke mobiele app ontwerpen
-                                waarmee gebruikers snel een beschikbare ruimte kunnen vinden,
-                                selecteren en reserveren — met aandacht voor
-                                gebruiksvriendelijkheid en visuele helderheid.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Mijn rol</h4>
-                            <p>
-                                Ik was verantwoordelijk voor het volledige designproces: van
-                                doelgroepanalyse en wireframing tot het uitwerken van
-                                high-fidelity schermen in Figma. Ik heb gebruikersflows
-                                uitgedacht en het visuele ontwerp verzorgd.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Resultaat</h4>
-                            <p>
-                                Een compleet uitgewerkt app-ontwerp in Figma met meerdere
-                                schermen, een logische navigatiestructuur en een strakke
-                                visuele stijl. Het ontwerp is tijdens het maken van dit portfolio nog niet gepresenteerd.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Reflectie</h4>
-                            <p>
-                                Dit project gaf mij waardevolle ervaring met UX-principes,
-                                wireframing en het werken in Figma. Ik leerde hoe belangrijk
-                                het is om vanuit de gebruiker te denken en een helder,
-                                gestructureerd ontwerp neer te zetten.
-                            </p>
-                        </div>
-
-                        <div class="project-skills-used">
-                            <span class="skill-tag">Figma</span>
-                            <span class="skill-tag">Wireframing</span>
-                            <span class="skill-tag">UX Design</span>
-                            <span class="skill-tag">UI Design</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- ===== PROJECT 3: Dit Portfolio ===== -->
-                <article class="project-card">
-                    <div class="project-header">
-                        <span class="project-number">03</span>
-                        <h3 class="project-title">Dit Portfolio</h3>
-                        <p class="project-tagline">
-                            Mijn persoonlijke portfoliowebsite — gebouwd met HTML en CSS om
-                            mezelf professioneel te presenteren.
-                        </p>
-                    </div>
-
-                    <div class="project-details">
-                        <div class="project-detail-block">
-                            <h4>Context</h4>
-                            <p>
-                                Om mijn vaardigheden, projecten en ambities op een
-                                professionele manier te presenteren, heb ik deze
-                                portfoliowebsite gebouwd met alleen HTML en CSS.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Doel</h4>
-                            <p>
-                                Een moderne, responsive en visueel aantrekkelijke
-                                single-page website bouwen die geschikt is om te delen
-                                met docenten, stagebedrijven en toekomstige werkgevers.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Mijn rol</h4>
-                            <p>
-                                Ik was verantwoordelijk voor het volledige ontwerp- en
-                                ontwikkelproces: van concept en structuur tot de uiteindelijke
-                                code. Ik heb gewerkt aan semantische HTML, responsive CSS,
-                                visueel design en contentcreatie.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Resultaat</h4>
-                            <p>
-                                Een volledig werkende, responsive portfoliowebsite met een
-                                premium uitstraling. De site bevat secties voor mijn
-                                achtergrond, skills, projecten en contactinformatie.
-                            </p>
-                        </div>
-
-                        <div class="project-detail-block">
-                            <h4>Reflectie</h4>
-                            <p>
-                                Het bouwen van deze website heeft mijn HTML- en CSS-kennis
-                                sterk verdiept. Ik heb geleerd hoe belangrijk aandacht voor
-                                detail, typografie, witruimte en responsive design is bij
-                                het creëren van een professionele online aanwezigheid.
-                            </p>
-                        </div>
-
-                        <div class="project-skills-used">
-                            <span class="skill-tag">HTML5</span>
-                            <span class="skill-tag">CSS3</span>
-                            <span class="skill-tag">Responsive Design</span>
-                            <span class="skill-tag">Webdevelopment</span>
-                        </div>
-                    </div>
-                </article>
-
+          <!-- ===== PROJECT 1: Escape Room ===== -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">01</span>
+              <h3 class="project-title">Escape Room</h3>
+              <p class="project-tagline">
+                Een interactieve Escape Room gebouwd in Roblox, met scripting,
+                logica en creatieve gameplay-elementen.
+              </p>
             </div>
-        </section>
 
-        <!-- ============================================
+            <div class="project-details">
+              <div class="project-detail-block">
+                <h4>Context</h4>
+                <p>
+                  Binnen een studieproject was de opdracht om een interactieve
+                  game-ervaring te ontwikkelen. Ik koos ervoor om een Escape
+                  Room te bouwen in Roblox Studio, waarbij scripting en creatief
+                  probleemoplossend denken centraal stonden.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Doel</h4>
+                <p>
+                  Een werkende Escape Room creëren waarin spelers puzzels moeten
+                  oplossen om verder te komen. De nadruk lag op logische opbouw,
+                  interactieve onderdelen en een meeslepende spelervaring.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Mijn rol</h4>
+                <p>
+                  Ik was verantwoordelijk voor het ontwerpen van de ruimte, het
+                  schrijven van de scripts in Lua en het testen van de gameplay.
+                  Ik heb gewerkt aan de logica achter puzzels, triggers en
+                  interactieve objecten.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Resultaat</h4>
+                <p>
+                  Een volledig speelbare Escape Room met meerdere puzzels,
+                  visuele feedback en een duidelijke spelflow. Het project is
+                  succesvol afgerond en gepresenteerd.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Reflectie</h4>
+                <p>
+                  Dit project leerde mij de basis van scripting, logisch denken
+                  en het belang van goed testen. Het versterkte mijn interesse
+                  in interactieve digitale ervaringen en gaf mij vertrouwen in
+                  het werken met nieuwe technologieën.
+                </p>
+              </div>
+              <div class="project-action">
+                <a
+                  href="https://liveadminwindesheim-my.sharepoint.com/:v:/r/personal/s1196810_student_windesheim_nl/Documents/Recording%202026-02-06%20051114.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0qZkYa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-small"
+                  >Bekijk het eindresultaat ↗</a
+                >
+              </div>
+              <div class="project-skills-used">
+                <span class="skill-tag">Roblox Studio</span>
+                <span class="skill-tag">Lua Scripting</span>
+                <span class="skill-tag">Game Design</span>
+                <span class="skill-tag">Logisch denken</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 2: Mobiele App ===== -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">02</span>
+              <h3 class="project-title">Mobiele app voor ruimte booking</h3>
+              <p class="project-tagline">
+                Een UX/UI-ontwerp voor een mobiele applicatie waarmee gebruikers
+                eenvoudig ruimtes kunnen reserveren.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-detail-block">
+                <h4>Context</h4>
+                <p>
+                  Voor een studieopdracht rondom gebruiksvriendelijkheid en
+                  interface-design heb ik een mobiele app ontworpen voor het
+                  booken van vergaderruimtes en werkplekken.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Doel</h4>
+                <p>
+                  Een intuïtieve en overzichtelijke mobiele app ontwerpen
+                  waarmee gebruikers snel een beschikbare ruimte kunnen vinden,
+                  selecteren en reserveren — met aandacht voor
+                  gebruiksvriendelijkheid en visuele helderheid.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Mijn rol</h4>
+                <p>
+                  Ik was verantwoordelijk voor het volledige designproces: van
+                  doelgroepanalyse en wireframing tot het uitwerken van
+                  high-fidelity schermen in Figma. Ik heb gebruikersflows
+                  uitgedacht en het visuele ontwerp verzorgd.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Resultaat</h4>
+                <p>
+                  Een compleet uitgewerkt app-ontwerp in Figma met meerdere
+                  schermen, een logische navigatiestructuur en een strakke
+                  visuele stijl. Het ontwerp is tijdens het maken van dit
+                  portfolio nog niet gepresenteerd.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Reflectie</h4>
+                <p>
+                  Dit project gaf mij waardevolle ervaring met UX-principes,
+                  wireframing en het werken in Figma. Ik leerde hoe belangrijk
+                  het is om vanuit de gebruiker te denken en een helder,
+                  gestructureerd ontwerp neer te zetten.
+                </p>
+              </div>
+
+              <div class="project-skills-used">
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Wireframing</span>
+                <span class="skill-tag">UX Design</span>
+                <span class="skill-tag">UI Design</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 3: Dit Portfolio ===== -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">03</span>
+              <h3 class="project-title">Dit Portfolio</h3>
+              <p class="project-tagline">
+                Mijn persoonlijke portfoliowebsite — gebouwd met HTML en CSS om
+                mezelf professioneel te presenteren.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-detail-block">
+                <h4>Context</h4>
+                <p>
+                  Om mijn vaardigheden, projecten en ambities op een
+                  professionele manier te presenteren, heb ik deze
+                  portfoliowebsite gebouwd met alleen HTML en CSS.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Doel</h4>
+                <p>
+                  Een moderne, responsive en visueel aantrekkelijke single-page
+                  website bouwen die geschikt is om te delen met docenten,
+                  stagebedrijven en toekomstige werkgevers.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Mijn rol</h4>
+                <p>
+                  Ik was verantwoordelijk voor het volledige ontwerp- en
+                  ontwikkelproces: van concept en structuur tot de uiteindelijke
+                  code. Ik heb gewerkt aan semantische HTML, responsive CSS,
+                  visueel design en contentcreatie.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Resultaat</h4>
+                <p>
+                  Een volledig werkende, responsive portfoliowebsite met een
+                  premium uitstraling. De site bevat secties voor mijn
+                  achtergrond, skills, projecten en contactinformatie.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Reflectie</h4>
+                <p>
+                  Het bouwen van deze website heeft mijn HTML- en CSS-kennis
+                  sterk verdiept. Ik heb geleerd hoe belangrijk aandacht voor
+                  detail, typografie, witruimte en responsive design is bij het
+                  creëren van een professionele online aanwezigheid.
+                </p>
+              </div>
+
+              <div class="project-skills-used">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">Webdevelopment</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 4: Campus Navigator App ===== -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">04</span>
+              <h3 class="project-title">Campus Navigator App</h3>
+              <p class="project-tagline">
+                Een mobiele app ontworpen voor eerstejaars en toekomstige
+                studenten om eenvoudig de weg te vinden door de school.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-detail-block">
+                <h4>Context</h4>
+                <p>
+                  Veel eerstejaars en aankomende studenten ervaren stress bij
+                  het navigeren door een nieuw en groot schoolgebouw. Om dit
+                  probleem aan te pakken heb ik een mobiele app ontworpen die
+                  hen op een intuïtieve manier door de campus begeleidt.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Doel</h4>
+                <p>
+                  Een gebruiksvriendelijke mobiele applicatie ontwerpen waarmee
+                  studenten snel lokalen, faciliteiten en routes kunnen vinden.
+                  De app moest laagdrempelig zijn en direct bruikbaar voor
+                  nieuwe studenten vanaf hun eerste dag.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Mijn rol</h4>
+                <p>
+                  Ik was verantwoordelijk voor het volledige UX/UI-designproces:
+                  van gebruikersonderzoek en persona's tot wireframes en
+                  high-fidelity schermen in Figma. Ik heb de navigatieflows
+                  uitgedacht, de visuele identiteit bepaald en het prototype
+                  interactief gemaakt.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Resultaat</h4>
+                <p>
+                  Een volledig uitgewerkt app-ontwerp in Figma met een
+                  interactieve plattegrond, zoekfunctie voor lokalen,
+                  routebegeleiding en een overzichtelijke interface. Het ontwerp
+                  is klaar om door te ontwikkelen naar een werkend prototype.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Reflectie</h4>
+                <p>
+                  Dit project heeft mij geleerd hoe belangrijk het is om vanuit
+                  de eindgebruiker te denken. Door te focussen op de behoeften
+                  van nieuwe studenten heb ik mijn vaardigheden in UX-research,
+                  wireframing en visueel design verder ontwikkeld. Het was
+                  waardevol om een echt probleem op te lossen met design.
+                </p>
+              </div>
+              <div class="project-action">
+                <a
+                  href="https://bitter-sound-760.linkyhost.com/"
+                  target="_blank"
+                  class="btn btn-primary btn-small"
+                  >Bekijk het resultaat ↗</a
+                >
+              </div>
+
+              <div class="project-skills-used">
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">UX Research</span>
+                <span class="skill-tag">Wireframing</span>
+                <span class="skill-tag">UI Design</span>
+                <span class="skill-tag">Prototyping</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT 5: AR Percy Jackson Website ===== -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">05</span>
+              <h3 class="project-title">Percy Jackson AR Experience</h3>
+              <span class="project-status-badge">In ontwikkeling</span>
+              <p class="project-tagline">
+                Een interactieve website met Augmented Reality in het thema van
+                Percy Jackson — waar mythologie tot leven komt via je scherm.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div class="project-detail-block">
+                <h4>Context</h4>
+                <p>
+                  Als liefhebber van zowel technologie als de wereld van Percy
+                  Jackson wilde ik deze twee passies combineren. Dit project
+                  verkent de mogelijkheden van Augmented Reality op het web en
+                  brengt de Griekse mythologie op een innovatieve manier tot
+                  leven.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Doel</h4>
+                <p>
+                  Een website bouwen die AR-technologie integreert, waarbij
+                  gebruikers via hun camera interactieve 3D-elementen uit het
+                  Percy Jackson-universum kunnen ervaren. Denk aan mythologische
+                  wezens, artefacten en interactieve scènes die via je telefoon
+                  of laptop tot leven komen.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Mijn rol</h4>
+                <p>
+                  Ik ben verantwoordelijk voor het volledige ontwerp- en
+                  ontwikkelproces: van concept en visueel design tot de
+                  technische implementatie met HTML, CSS, JavaScript en
+                  AR-frameworks. Ik onderzoek en experimenteer met WebXR en
+                  AR.js om de beste gebruikerservaring te realiseren.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Huidige status</h4>
+                <p>
+                  Dit project is momenteel in actieve ontwikkeling. De
+                  basisstructuur van de website staat, het Percy Jackson-thema
+                  is visueel uitgewerkt en de eerste AR-experimenten worden
+                  geïntegreerd. Verwachte oplevering volgt binnenkort.
+                </p>
+              </div>
+
+              <div class="project-detail-block">
+                <h4>Reflectie</h4>
+                <p>
+                  Dit project daagt mij uit om verder te gaan dan standaard
+                  webdevelopment. Het werken met AR-technologie op het web is
+                  nieuw terrein voor mij en leert mij om innovatief te denken,
+                  nieuwe frameworks te verkennen en creatief problemen op te
+                  lossen.
+                </p>
+              </div>
+              <div class="project-action">
+                <a
+                  href="https://chroniclesofolympus.netlify.app/"
+                  target="_blank"
+                  class="btn btn-primary btn-small"
+                  >Bekijk het resultaat ↗</a
+                >
+              </div>
+
+              <div class="project-skills-used">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Augmented Reality</span>
+                <span class="skill-tag">AR.js / WebXR</span>
+                <span class="skill-tag">3D Modelling</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============================================
              CONTACT SECTIE
         ============================================= -->
-        <section id="contact" class="section contact">
-            <div class="container">
-                <p class="section-label">Laten we kennismaken</p>
-                <h2 class="section-title">Contact</h2>
-                <p class="section-description">
-                    Op zoek naar een gemotiveerde stagiair, een enthousiaste teamspeler
-                    of gewoon benieuwd naar mijn werk? Neem gerust contact met mij op.
-                    Ik sta open voor stages, samenwerkingen en nieuwe kansen.
-                </p>
+      <section id="contact" class="section contact">
+        <div class="container">
+          <p class="section-label">Laten we kennismaken</p>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-description">
+            Op zoek naar een gemotiveerde stagiair, een enthousiaste teamspeler
+            of gewoon benieuwd naar mijn werk? Neem gerust contact met mij op.
+            Ik sta open voor stages, samenwerkingen en nieuwe kansen.
+          </p>
 
-                <div class="contact-grid">
-                    <!-- E-mail kaart -->
-                    <a href="mailto:sbmanduzai009@gmail.com" class="contact-card">
-                        <span class="contact-icon">✉</span>
-                        <h3>E-mail</h3>
-                        <p>sbmanduzai009@gmail.com</p>
-                    </a>
+          <div class="contact-grid">
+            <!-- E-mail kaart -->
+            <a href="mailto:sbmanduzai009@gmail.com" class="contact-card">
+              <span class="contact-icon"
+                ><i class="fa-solid fa-envelope"></i
+              ></span>
+              <h3>E-mail</h3>
+              <p>sbmanduzai009@gmail.com</p>
+            </a>
 
-                    <!-- LinkedIn kaart (placeholder) -->
-                    <a href="https://www.linkedin.com/in/bostan-manduzai-7716a52b9/" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <span class="contact-icon">in</span>
-                        <h3>LinkedIn</h3>
-                        <p>Bekijk mijn profiel</p>
-                    </a>
+            <!-- LinkedIn kaart -->
+            <a
+              href="https://www.linkedin.com/in/bostan-manduzai-7716a52b9/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <span class="contact-icon"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></span>
+              <h3>LinkedIn</h3>
+              <p>Bekijk mijn profiel</p>
+            </a>
 
-                    <!-- GitHub kaart (placeholder) -->
-                    <a href="https://github.com/Bostan009" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <span class="contact-icon">&lt;/&gt;</span>
-                        <h3>GitHub</h3>
-                        <p>Bekijk mijn repositories</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-
+            <!-- GitHub kaart -->
+            <a
+              href="https://github.com/Bostan009"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <span class="contact-icon"
+                ><i class="fa-brands fa-github"></i
+              ></span>
+              <h3>GitHub</h3>
+              <p>Bekijk mijn repositories</p>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- ============================================
          FOOTER
     ============================================= -->
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2025 Shawkatullah Manduzai. Alle rechten voorbehouden.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2026 Shawkatullah Manduzai. Alle rechten voorbehouden.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
